@@ -1,12 +1,9 @@
 import 'package:docapp/app/router/router.dart';
-
-import '../app/imagespath/imagespath.dart';
 import 'package:docapp/features/splash/splashview.dart';
 import 'package:docapp/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
 class docapp extends StatelessWidget {
   const docapp({super.key});
@@ -18,6 +15,9 @@ class docapp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       child: MaterialApp(
+        theme: ThemeData(
+          scaffoldBackgroundColor: Colors.white,
+        ),
         onGenerateRoute: onGenerateRoute,
         locale: const Locale("en"),
         localizationsDelegates: [
@@ -28,10 +28,7 @@ class docapp extends StatelessWidget {
         ],
         supportedLocales: S.delegate.supportedLocales,
         debugShowCheckedModeBanner: false,
-        home: Scaffold(body:
-        
-         SplashView()
-         ),
+        home: Scaffold(body: SplashView()),
       ),
     );
   }

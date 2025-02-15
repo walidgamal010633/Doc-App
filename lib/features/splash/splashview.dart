@@ -26,16 +26,27 @@ class _SplashViewState extends State<SplashView> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Stack(
         children: [
-          SvgPicture.asset(
-            imagespath.doclogo,
-          ),
-          Gap(10.w),
-          Text(
-            S.of(context)!.AppName,
-            style: Textstyle.font48BlackW700,
+          SvgPicture.asset(imagespath.doclogo_opasity),
+          Positioned(
+            top: 0,
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SvgPicture.asset(
+                  imagespath.doclogo,
+                ),
+                Gap(10.w),
+                Text(
+                  S.of(context)!.AppName,
+                  style: Textstyle.font48BlackW700,
+                )
+              ],
+            ),
           )
         ],
       ),
@@ -44,7 +55,7 @@ class _SplashViewState extends State<SplashView> {
 
   void executeNaviagtion() {
     Future.delayed(const Duration(seconds: 3), () {
-      context.pushNamed(onboarding.routeName);
+      context.pushReplacementNamed(onboarding.routeName);
     });
   }
 }

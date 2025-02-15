@@ -21,6 +21,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "AppName" : MessageLookupByLibrary.simpleMessage("اسم التطبيق")
+    "AppName" : MessageLookupByLibrary.simpleMessage("اسم التطبيق"),
+    "DoctorAppointment" : MessageLookupByLibrary.simpleMessage("أفضل تطبيق لمواعيد الدكاترة"),
+    "GetStarted" : MessageLookupByLibrary.simpleMessage("ابدأ"),
+    "Manageandschedule" : MessageLookupByLibrary.simpleMessage("إدير وجدول كل مواعيدك الطبية بسهولة باستخدام Docdoc عشان تحصل على تجربة جديدة.")
   };
 }

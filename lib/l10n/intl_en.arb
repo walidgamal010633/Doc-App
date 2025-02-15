@@ -1,3 +1,6 @@
 {
-  "AppName":"Docdoc"
+  "AppName":"Docdoc",
+  "DoctorAppointment" : "Best Doctor Appointment App",
+  "Manageandschedule": "Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.",
+  "GetStarted":"Get Started"
 }

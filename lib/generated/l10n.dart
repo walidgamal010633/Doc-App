@@ -44,6 +44,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Best Doctor Appointment App`
+  String get DoctorAppointment {
+    return Intl.message(
+      'Best Doctor Appointment App',
+      name: 'DoctorAppointment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.`
+  String get Manageandschedule {
+    return Intl.message(
+      'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
+      name: 'Manageandschedule',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get GetStarted {
+    return Intl.message(
+      'Get Started',
+      name: 'GetStarted',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
