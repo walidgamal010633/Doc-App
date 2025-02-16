@@ -18,27 +18,32 @@ class onboarding extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Column(
-        children: [
-          IconAndNameApp(),
-          Gap(30.h),
-          OnboardingImage(),
-          Gap(30.h),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 18),
-            child: Text(
-              S.of(context)!.Manageandschedule,
-              textAlign: TextAlign.center,
-              style: Textstyle.font14greyW500
+          child: SingleChildScrollView(
+        child: Column(
+          children: [
+            IconAndNameApp(),
+            Gap(30.h),
+            OnboardingImage(),
+            Gap(30.h),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: Column(
+                
+                children: [
+                  Text(S.of(context)!.Manageandschedule,
+                      textAlign: TextAlign.center,
+                      style: Textstyle.font14greyW500),
+                  Gap(30.h),
+                  CustomButton(
+                      text: S.of(context)!.GetStarted,
+                      onPressed: () {
+                        context.pushNamed(screenpath.login);
+                      }),
+                ],
+              ),
             ),
-          ),
-          Gap(30.h),
-          CustomButton(
-              text: S.of(context)!.GetStarted,
-              onPressed: () {
-                context.pushNamed(screenpath.login);
-              }),
-        ],
+          ],
+        ),
       )),
     );
   }

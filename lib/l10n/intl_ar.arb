@@ -2,5 +2,17 @@
   "AppName":"اسم التطبيق",
   "DoctorAppointment" : "أفضل تطبيق لمواعيد الدكاترة",
   "Manageandschedule": "إدير وجدول كل مواعيدك الطبية بسهولة باستخدام Docdoc عشان تحصل على تجربة جديدة.",
-  "GetStarted":"ابدأ"
+  "GetStarted":"ابدأ",
+  "WelcomeBack":"مرحبا بعودتك",
+  "WelcomeBackMessage":"نحن متحمسون لعودتك، ولا يسعنا الانتظار لرؤية ما كنت تفعله منذ آخر مرة قمت بتسجيل دخولك.",
+  "Email": "البريد الإلكتروني",
+  "Password": "كلمة المرور",
+  "Login": "تسجيل الدخول",
+  "ForgotPassword": "هل نسيت كلمة المرور؟",
+  "Conditions": "من خلال تسجيل الدخول، فإنك توافق على ",
+  "TermsAndConditions": "الشروط والأحكام",
+  "and": "و",
+  "PrivacyPolicy": "سياسة الخصوصية.",
+  "Alreadyhaveanaccountyet?": "هل لديك حساب بالفعل؟",
+  "SignUp": "إنشاء حساب"
 }

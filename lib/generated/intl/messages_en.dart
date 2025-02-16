@@ -21,9 +21,21 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "Alreadyhaveanaccountyet" : MessageLookupByLibrary.simpleMessage("Already have an account yet? "),
     "AppName" : MessageLookupByLibrary.simpleMessage("Docdoc"),
+    "Conditions" : MessageLookupByLibrary.simpleMessage("By logging, you agree to our "),
     "DoctorAppointment" : MessageLookupByLibrary.simpleMessage("Best Doctor Appointment App"),
+    "Email" : MessageLookupByLibrary.simpleMessage("Email"),
+    "ForgotPassword" : MessageLookupByLibrary.simpleMessage("Forgot Password?"),
     "GetStarted" : MessageLookupByLibrary.simpleMessage("Get Started"),
-    "Manageandschedule" : MessageLookupByLibrary.simpleMessage("Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.")
+    "Login" : MessageLookupByLibrary.simpleMessage("Login"),
+    "Manageandschedule" : MessageLookupByLibrary.simpleMessage("Manage and schedule all of your medical appointments easily with Docdoc to get a new experience."),
+    "Password" : MessageLookupByLibrary.simpleMessage("Password"),
+    "PrivacyPolicy" : MessageLookupByLibrary.simpleMessage(" PrivacyPolicy."),
+    "SignUp" : MessageLookupByLibrary.simpleMessage("Sign Up"),
+    "TermsAndConditions" : MessageLookupByLibrary.simpleMessage("Terms & Conditions "),
+    "WelcomeBack" : MessageLookupByLibrary.simpleMessage("Welcome Back"),
+    "WelcomeBackMessage" : MessageLookupByLibrary.simpleMessage("We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in."),
+    "and" : MessageLookupByLibrary.simpleMessage("and")
   };
 }

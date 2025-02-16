@@ -74,6 +74,126 @@ class S {
       args: [],
     );
   }
+
+  /// `Welcome Back`
+  String get WelcomeBack {
+    return Intl.message(
+      'Welcome Back',
+      name: 'WelcomeBack',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We're excited to have you back, can't wait to see what you've been up to since you last logged in.`
+  String get WelcomeBackMessage {
+    return Intl.message(
+      'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
+      name: 'WelcomeBackMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message(
+      'Email',
+      name: 'Email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get Password {
+    return Intl.message(
+      'Password',
+      name: 'Password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get Login {
+    return Intl.message(
+      'Login',
+      name: 'Login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password?`
+  String get ForgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'ForgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By logging, you agree to our `
+  String get Conditions {
+    return Intl.message(
+      'By logging, you agree to our ',
+      name: 'Conditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms & Conditions `
+  String get TermsAndConditions {
+    return Intl.message(
+      'Terms & Conditions ',
+      name: 'TermsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `and`
+  String get and {
+    return Intl.message(
+      'and',
+      name: 'and',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` PrivacyPolicy.`
+  String get PrivacyPolicy {
+    return Intl.message(
+      ' PrivacyPolicy.',
+      name: 'PrivacyPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account yet? `
+  String get Alreadyhaveanaccountyet {
+    return Intl.message(
+      'Already have an account yet? ',
+      name: 'Alreadyhaveanaccountyet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get SignUp {
+    return Intl.message(
+      'Sign Up',
+      name: 'SignUp',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

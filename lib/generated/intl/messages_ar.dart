@@ -22,8 +22,19 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
     "AppName" : MessageLookupByLibrary.simpleMessage("اسم التطبيق"),
+    "Conditions" : MessageLookupByLibrary.simpleMessage("من خلال تسجيل الدخول، فإنك توافق على "),
     "DoctorAppointment" : MessageLookupByLibrary.simpleMessage("أفضل تطبيق لمواعيد الدكاترة"),
+    "Email" : MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "ForgotPassword" : MessageLookupByLibrary.simpleMessage("هل نسيت كلمة المرور؟"),
     "GetStarted" : MessageLookupByLibrary.simpleMessage("ابدأ"),
-    "Manageandschedule" : MessageLookupByLibrary.simpleMessage("إدير وجدول كل مواعيدك الطبية بسهولة باستخدام Docdoc عشان تحصل على تجربة جديدة.")
+    "Login" : MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "Manageandschedule" : MessageLookupByLibrary.simpleMessage("إدير وجدول كل مواعيدك الطبية بسهولة باستخدام Docdoc عشان تحصل على تجربة جديدة."),
+    "Password" : MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+    "PrivacyPolicy" : MessageLookupByLibrary.simpleMessage("سياسة الخصوصية."),
+    "SignUp" : MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "TermsAndConditions" : MessageLookupByLibrary.simpleMessage("الشروط والأحكام"),
+    "WelcomeBack" : MessageLookupByLibrary.simpleMessage("مرحبا بعودتك"),
+    "WelcomeBackMessage" : MessageLookupByLibrary.simpleMessage("نحن متحمسون لعودتك، ولا يسعنا الانتظار لرؤية ما كنت تفعله منذ آخر مرة قمت بتسجيل دخولك."),
+    "and" : MessageLookupByLibrary.simpleMessage("و")
   };
 }

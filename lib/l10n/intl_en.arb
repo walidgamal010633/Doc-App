@@ -2,5 +2,18 @@
   "AppName":"Docdoc",
   "DoctorAppointment" : "Best Doctor Appointment App",
   "Manageandschedule": "Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.",
-  "GetStarted":"Get Started"
+  "GetStarted":"Get Started",
+  "WelcomeBack":"Welcome Back",
+  "WelcomeBackMessage":"We're excited to have you back, can't wait to see what you've been up to since you last logged in.",
+  "Email":"Email",
+  "Password":"Password",
+  "Login":"Login",
+  "ForgotPassword":"Forgot Password?",
+  "Conditions":"By logging, you agree to our ",
+  "TermsAndConditions":"Terms & Conditions ",
+  "and":"and",
+  "PrivacyPolicy":" PrivacyPolicy.",
+  "Alreadyhaveanaccountyet":"Already have an account yet? ",
+  "SignUp":"Sign Up"
+  
 }
